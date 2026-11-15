@@ -25,3 +25,16 @@ To view specific container webpages:
 - Node-exporter: http://localhost:9100/ or http://localhost:9100/metrics
 - Grafana: http://localhost:3000/metrics  
 
+**View Grafana Drilldown Metrics:**  
+By default the Drilldown Metrics will display all metrics from Prometheus container, Grafana container and host system metrics. To filter and view only Prometheus metrics:  
+ - Click filter and enter: `job = prometheus`.
+ - Do similar for node_exporter or grafana: `job = node_exporter` or `job = grafana`
+
+**Import pre-built Grafana dashboard:**  
+Instead of building my own custom dashboard, I use a pre-built dashboard (ID = 1800) from https://grafana.com/grafana/dashboards/  
+- Go to Grafana web http://localhost:3000/
+- Click on **Dashboard** ->**new** ->**Import**
+- Enter **1860** in the ID slot
+- Click **Load** ->**Import**  
+Now you can view all the plots that represent the metrics on the Grafana dashboard.  
+
