@@ -31,7 +31,7 @@ By default the Drilldown Metrics will display all metrics from Prometheus contai
  - Do similar for node_exporter or grafana: `job = node_exporter` or `job = grafana`
 
 **Import pre-built Grafana dashboard:**  
-Instead of building my own custom dashboard, I use a pre-built dashboard (ID = 1800) from https://grafana.com/grafana/dashboards/  
+Instead of building my own custom dashboard, I use a pre-built dashboard (ID = 1800) from https://grafana.com/grafana/dashboards/. This dashboard is for node-exporter (host computer) metrics.  
 - Go to Grafana web http://localhost:3000/
 - Click on **Dashboard** ->**new** ->**Import**
 - Enter **1860** in the ID slot
