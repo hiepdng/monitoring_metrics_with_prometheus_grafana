@@ -21,6 +21,7 @@ docker compose up -d
 Go to http://localhost:3000/ to access your local Grafana webpage and view the host and containers metrics.  
 
 To view specific container webpages:  
-- Prometheus: http://localhost:9090/
-- Node-exporter: http://localhost:9100/
+- Prometheus: http://localhost:9090/ or http://localhost:9090/metrics
+- Node-exporter: http://localhost:9100/ or http://localhost:9100/metrics
+- Grafana: http://localhost:3000/metrics  
 
