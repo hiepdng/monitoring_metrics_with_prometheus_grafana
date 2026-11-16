@@ -26,6 +26,10 @@ services:
       - /:/rootfs:ro,rslave
     command:
       - --path.rootfs=/rootfs
+      - --collector.systemd
+      - --collector.processes
+      - --collector.interrupts
+      - --collector.tcpstat
     ports:
       - 9100:9100
 
