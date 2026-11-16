@@ -9,10 +9,10 @@ To simplify the setup, I use docker images to monitor/visualize Prometheus conta
 Run the below commands to download the demo repository and run Prometheus and Grafana.  
 ```bash
 #Downloading the repository
-git clone git@github.com:hiepdng/prometheus_grafana_metrics.git
+git clone git@github.com:hiepdng/monitoring_metrics_with_prometheus_grafana.git
 
 #Creating volumes
-cd monitoring_prometheus_grafana_metrics
+cd monitoring_metrics_with_prometheus_grafana
 mkdir prometheus_data
 sudo chown -R nobody:nogroup prometheus_data
 mkdir grafana_data
