@@ -12,7 +12,7 @@ Run the below commands to download and Prometheus and Grafana.
 git clone git@github.com:hiepdng/prometheus_grafana_metrics.git
 
 #Creating volumes
-cd prometheus_grafana_metrics
+cd monitoring_prometheus_grafana_metrics
 mkdir prometheus_data
 sudo chown -R nobody:nogroup prometheus_data
 mkdir grafana_data
