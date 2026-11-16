@@ -1,4 +1,6 @@
-## Using Prometheus and Grafana To Visualize Host and Containers Metrics
+## Monitoring Metrics with Prometheus and Grafana 
+
+
 Using Prometheus and Grafana to monitor Metrics
 
 **Setup**  
