@@ -3,7 +3,7 @@
 
 Below is the complete setup how to use Prometheus and Grafana to collect, store, query, and visualize numerical performance data (time-series metrics) from systems, containers, applications, cloud and infrastructures.  
 
-To simplify the setup, I use docker images monitor/visualize Prometheus container's metrics, Grafana container's metrics and host system metrics (using node-exporter).
+To simplify the setup, I use docker images to monitor/visualize Prometheus container's metrics, Grafana container's metrics and host system metrics (using node-exporter).
 
 **Setup**  
 Run the below commands to download and Prometheus and Grafana.  
