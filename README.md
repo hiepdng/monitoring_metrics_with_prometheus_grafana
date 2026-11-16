@@ -26,7 +26,7 @@ To view specific container webpages:
 - Grafana: http://localhost:3000/metrics  
 
 **View Grafana Drilldown Metrics:**  
-By default the Drilldown Metrics will display all metrics from Prometheus container, Grafana container and host system metrics. To filter and view only Prometheus metrics:  
+In the Grafana webpage (http://localhost:3000/), by default the Drilldown Metrics will display all metrics from Prometheus container, Grafana container and host system metrics. To filter and view only Prometheus metrics:  
  - Click filter and enter: `job = prometheus`.
  - Do similar for node_exporter or grafana: `job = node_exporter` or `job = grafana`
 
